@@ -3,4 +3,5 @@
 
 # Ulož si do proměnné jmeno své jméno a vypiš, kolik má písmen.
 
-
+jmeno = "Lucie Marie Novotná Havlová"
+print(len(jmeno))

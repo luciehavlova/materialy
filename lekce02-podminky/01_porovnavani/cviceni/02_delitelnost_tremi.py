@@ -4,4 +4,7 @@
 # Vypiš True/False podle toho, jestli je číslo 12 dělitelné třemi.
 #    (Nápověda: dělitelné třemi znamená, že zbytek po dělení je nula.)
 
+cislo = 12
+print("Číslo", cislo, "je dělitelné třemi: ", cislo % 3 == 0)
+
 

@@ -19,3 +19,8 @@ print((2 + 3) * 4)   # 20  (nejdřív 2 + 3, pak * 4)
 
 # Závorky fungují úplně stejně jako v matematice:
 print(3 + (4 + 6) * 8 / 2 - 1)
+
+
+
+
+

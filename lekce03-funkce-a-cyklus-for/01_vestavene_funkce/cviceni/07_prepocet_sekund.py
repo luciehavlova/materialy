@@ -4,4 +4,12 @@
 # Uživatel zadá počet sekund (třeba 3661). Přepočítej ho na hodiny,
 #    minuty a sekundy a vypiš je jako 1:1:1 jediným printem.
 
+sekundy = int(input("Zadej počet sekund: "))
+
+hodiny = sekundy // 3600
+minuty = sekundy % 3600 // 60
+zbyle = sekundy % 60
+
+print(hodiny, minuty, zbyle, sep= ":")
+
 

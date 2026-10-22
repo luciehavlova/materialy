@@ -3,4 +3,7 @@
 
 # Pozdrav uživatele jeho jménem (např. Ahoj, Anna).
 
+jmeno = input("Zadej své jméno: ")
+print("Ahoj,", jmeno)
+
 

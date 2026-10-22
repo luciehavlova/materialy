@@ -5,4 +5,15 @@
 #    Zeptej se na jméno i heslo a vypiš "Vítej!", jen když sedí obojí.
 #    Jinak vypiš "Špatné údaje.".
 
+jmeno = "anna"
+heslo = "tajne"
 
+jmeno_zadani = input("Zadej jmeno: ")
+heslo_zadani = input("Zadej heslo: ")
+
+if jmeno_zadani == jmeno and heslo_zadani == heslo:
+    print("Vítej!")
+else:
+    print("Špatné údaje.")
+
+    

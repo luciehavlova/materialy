@@ -14,8 +14,8 @@ print("Ahoj")
 
 
 # Cyklus for udělá totéž za nás. range(3) znamená tři opakování:
-for cislo in range(3):
-    print("Ahoj")
+for i in range(3):
+    print("Ahoj", str(i))
 
 
 # Jak takový cyklus přečíst:
@@ -30,3 +30,11 @@ for cislo in range(3):
 # (pět čísel, poslední je o jedna míň – to už známe z minula):
 for cislo in range(5):
     print(cislo)          # vypíše 0, 1, 2, 3, 4 – každé na svůj řádek
+
+for i in range(12):
+    if(i % 2 == 0):
+        print("Sudé", str(i))
+    else:
+        print("Liché", str(i))
+
+

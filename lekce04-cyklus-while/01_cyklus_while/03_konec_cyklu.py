@@ -21,7 +21,7 @@ from random import randrange
 # Házíme kostkou tak dlouho, dokud nepadne šestka.
 hod = randrange(1, 7)
 while hod != 6:
-    print("Padlo", hod, "- házíme znovu.")
+    print("Padlo", hod, "- házej znovu.")
     hod = randrange(1, 7)     # DŮLEŽITÉ: měníme proměnnou z podmínky
 print("Šestka! Můžeš začít.")
 

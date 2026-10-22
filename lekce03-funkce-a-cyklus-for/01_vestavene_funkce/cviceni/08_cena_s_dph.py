@@ -6,4 +6,8 @@
 #    druhý ho dokonči.
 cena = 1000
 
+dph = (cena * 21 / 100) + cena
+# print(dph)
 
+print("Cena bez DPH", cena, end= " a ")
+print("Cena s DPH", dph)

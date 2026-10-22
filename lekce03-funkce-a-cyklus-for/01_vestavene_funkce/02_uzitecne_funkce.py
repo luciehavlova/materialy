@@ -4,7 +4,6 @@
 # Python má spoustu hotových funkcí. Projdeme si ty, které se hodí
 # při počítání a práci s textem. Spusť soubor a sleduj výsledky.
 
-
 # len (z anglického length = délka) vrátí délku textu – kolik má znaků.
 slovo = "Ahoj"
 print(len(slovo))     # 4   slovo "Ahoj" má čtyři písmena
@@ -19,7 +18,7 @@ delka = len("kolo")
 print(delka + 1)      # 5
 
 
-# abs (absolutní hodnota) – „zapomene" na znaménko mínus.
+# abs (absolutní hodnota, absolut value) – „zapomene" na znaménko mínus.
 # Hodí se třeba na rozdíl dvou čísel, když nás nezajímá směr.
 print(abs(-7))        # 7
 print(abs(7))         # 7

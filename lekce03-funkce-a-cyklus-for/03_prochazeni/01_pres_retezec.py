@@ -18,3 +18,6 @@ for pismeno in slovo:
 jmeno = input("Napiš svoje jméno: ")
 for znak in jmeno:
     print(znak, "!")
+
+
+    

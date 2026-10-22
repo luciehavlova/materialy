@@ -8,8 +8,9 @@
 
 # Zeptáme se na věk. To, co dostaneme, je text (třeba "30").
 vek = input("Kolik ti je let? ")
+print("Je ti", vek, "let")
 
-# Kdybychom teď chtěli přičíst 1, program by SPADL s chybou –
+# Kdybychom teď chtěli přičíst 1, program by SPADL s chybou –50
 # k textu se totiž číslo přičíst nedá.
 # Zkus si to: odkomentuj řádek níž a spusť soubor.
 # print("Za rok ti bude", vek + 1)

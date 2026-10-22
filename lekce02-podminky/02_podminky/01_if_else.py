@@ -15,11 +15,13 @@
 # Odsazení říká Pythonu „tohle patří do if-u".
 
 
-vek = 20
-
+# vek = 20
+vek = int(input("Zadej svůj věk: "))
 if vek >= 18:
     print("Jsi plnoletá.")
     print("Můžeš volit.")
+
+print("Konec programu")
 
 # Oba odsazené řádky se spustí, protože vek >= 18 je True.
 # Zkus změnit vek třeba na 15 a spusť znovu – nevypíše se nic.

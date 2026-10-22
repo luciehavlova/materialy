@@ -40,3 +40,13 @@ if not (heslo_ok and jmeno_ok):
 
 # Čti to jako „není pravda, že platí heslo i jméno zároveň".
 # Závorka je důležitá – řekne Pythonu, co přesně má not otočit.
+
+
+rain = True
+windy = False
+
+if not (rain or windy):   # není pravda, že prší nebo je větrno
+    print("Je hezky")
+else:
+    print("Je deštivo a větrno")
+

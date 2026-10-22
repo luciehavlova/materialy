@@ -4,4 +4,11 @@
 # Ciferný součet. Uživatel zadá číslo. Sečti jeho jednotlivé číslice
 #     a součet vypiš (třeba z 253 vyjde 2 + 5 + 3 = 10).
 
+cislo = input("Zadej minimálně třímístné číslo: ")
+
+soucet = 0
+
+for znak in cislo: 
+    soucet = soucet + int(znak)
+print("Součet jednotlivých čísel v trojmístném čísle je: ", soucet)
 

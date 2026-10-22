@@ -33,8 +33,10 @@ print("Ahoj", "Anno", 2025)     # Ahoj Anno 2025
 # Některé funkce mají i pojmenované argumenty – napíšeme u nich jméno
 # a rovnítko. print jich má dva užitečné: sep a end.
 
-# sep určuje, co se vypíše MEZI argumenty (místo mezery):
+# sep (separate) určuje, co se vypíše MEZI argumenty (místo mezery):
 print(2, 3, 4, sep=", ")        # 2, 3, 4
+print(1, 2, 3, sep=": ")
+
 
 # end určuje, co se vypíše NA KONCI (místo přechodu na nový řádek).
 # Tyhle dva printy proto skončí na jednom řádku vedle sebe:
@@ -44,7 +46,7 @@ print("světe")                  # Ahoj světe
 
 # --- Funkce, které nám VRÁTÍ hodnotu ---
 
-# input se zeptá uživatele a jeho odpověď nám vrátí (jako text).
+# input se zeptá uživatele a jeho odpověď nám vrátí (jako text) - vždy vrací jako text - string.
 # Proto si ji ukládáme do proměnné.
 jmeno = input("Jak se jmenuješ? ")
 print("Ahoj,", jmeno)
@@ -54,3 +56,5 @@ print("Ahoj,", jmeno)
 odpoved = input("Kolik ti je let? ")   # input vrátí text, třeba "30"
 vek = int(odpoved)                     # int z textu udělá číslo 30
 print("Za rok ti bude", vek + 1)
+
+

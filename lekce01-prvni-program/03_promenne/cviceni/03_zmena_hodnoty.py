@@ -3,4 +3,10 @@
 
 # Změň hodnotu proměnné jmeno na jiné jméno a vypiš ji znovu.
 
+jmeno = "Lucie"
+print("Ahoj", jmeno)
+
+jmeno = "Marie"
+print("Ahoj", jmeno)
+
 

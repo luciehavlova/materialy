@@ -5,3 +5,8 @@
 #    Číslo nech spočítat Python (napiš do print výpočet, ne hotové číslo).
 
 
+a = 10
+b = 15
+soucin = a * b
+print(soucin)
+print("Součin dvou čísel je:", soucin)

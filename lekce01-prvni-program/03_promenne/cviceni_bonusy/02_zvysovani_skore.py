@@ -6,4 +6,10 @@
 #     pokaždé novou hodnotu ulož zpět do skore.
 #     Nakonec skore vypiš.
 
+skore = 0
+skore += 10  # skore = skore + 10
+skore += 25
+skore += 5
+
+print(skore)
 

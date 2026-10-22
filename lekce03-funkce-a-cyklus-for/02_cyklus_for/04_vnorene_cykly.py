@@ -21,7 +21,21 @@ for kolo in range(1, 4):
 # skočit na další. Vypíšeme třeba mini kalendář – tři týdny pod sebou,
 # každý s čísly dnů 1 až 7. Vnitřní cyklus vypíše jeden řádek (týden),
 # vnější ho zopakuje. Pomůže end (drží řádek) a prázdný print() (zalomí):
+
 for tyden in range(1, 4):
     for den in range(1, 8):
         print(den, end=" ")       # dny 1 až 7 vedle sebe
     print()                       # po celém týdnu skoč na nový řádek
+
+"""
+for mesic in range(1, 13):
+    print("Měsíc:", mesic)
+    for tyden in range(1, 5):
+        print("Měsíc:", mesic, "Týden:", tyden)
+        for den in range(1, 8):
+            print("Měsíc:", mesic, "Týden:", tyden, "Den:", den)
+        print("Konec týdne:", tyden)
+    print("Konec měsíce:", mesic)
+print("Konec všech cyklů")
+"""
+

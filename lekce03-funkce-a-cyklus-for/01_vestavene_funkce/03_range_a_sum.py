@@ -9,7 +9,8 @@
 # range(5) vyrobí čísla od 0 do 4 (pět čísel, ale poslední se NEpočítá).
 # Když range vypíšeme přímo, ukáže se jen "návod", ne samotná čísla:
 print(range(5))       # range(0, 5)   čísla zatím schovaná uvnitř
-
+# for i in range(5):
+    # print(i)
 
 # Že jsou uvnitř opravdu čísla, si ověříme pomocí dalších funkcí.
 # sum sečte všechna čísla v posloupnosti.

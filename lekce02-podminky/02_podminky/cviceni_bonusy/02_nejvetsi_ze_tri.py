@@ -7,4 +7,11 @@ a = 12
 b = 25
 c = 8
 
+if a > b and a > c:
+    print("Největší číslo je:", a)
+elif b > a and b > c:
+    print("Největší číslo je:", b)
+else:
+    print("Největší číslo je:", c)
+    
 

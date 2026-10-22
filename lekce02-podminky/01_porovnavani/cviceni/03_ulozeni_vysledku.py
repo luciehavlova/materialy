@@ -4,4 +4,8 @@
 # Ulož do proměnné vysledek porovnání, jestli je 2 + 2 rovno 4.
 #    Pak proměnnou vysledek vypiš.
 
+soucet = 2 + 2 
+porovnani = soucet == 4
+print("Výsledek porovnání", porovnani)
+
 

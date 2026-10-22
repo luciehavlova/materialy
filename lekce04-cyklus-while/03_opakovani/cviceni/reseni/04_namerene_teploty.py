@@ -16,3 +16,4 @@ while True:
         nejvyssi = teplota
 
 print("Nejvyšší teplota byla", nejvyssi)
+

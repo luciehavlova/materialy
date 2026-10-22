@@ -9,4 +9,27 @@
 #        4 8 12 16
 #    Jak pojmenuješ obě proměnné cyklu? Zamysli se, ať dávají smysl.
 
+for radek in range(1, 5):
+    for sloupec in range(1, 5):
+        print(radek * sloupec, end=" ")
+    print()
+
+
+# pro celou násobilku:
+
+for radek in range(1, 11):
+    for sloupec in range(1, 11):
+        # print(radek * sloupec, end=" ")
+        print(f"{radek * sloupec:4}", end="")
+    print()
+
+
+
+
+
+
+
+
+
+
 

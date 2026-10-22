@@ -4,4 +4,8 @@
 # Zeptej se na jméno a na číslo.
 #     Vypiš jméno tolikrát za sebou.
 
+jmeno = input("Jak se jmenuješ? ")
+pocet = int(input("Kolikrát? "))
+print(jmeno * pocet)
+
 

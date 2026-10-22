@@ -11,4 +11,22 @@
 #     - Když řekneš, že už nechceš, hra skončí a vypíše se výsledek.
 #     Nahoru na první řádek nezapomeň:  from random import randrange
 
+from random import randrange
+
+soucet = 0
+while soucet < 21:
+    print("Máš", soucet, "bodů.")
+    odpoved = input("Chceš si líznout? (ano/ne): ")
+    if odpoved == "ne":
+        break
+    karta = randrange(2, 11)
+    print("Lízla sis", karta)
+    soucet = soucet + karta
+
+if soucet == 21:
+    print("Přesně 21, vyhráváš!")
+elif soucet > 21:
+    print("Přetáhla jsi přes 21, prohráváš. Máš", soucet)
+else:
+    print("Končíš s", soucet, "body.")
 

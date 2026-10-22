@@ -7,4 +7,10 @@
 #     Zkus i záporné číslo. Aby to fungovalo, hodí se abs(cislo) –
 #     ta funkce zahodí minus.
 
+cislo = input("Zadej celé trojciferné číslo: ")
+
+soucet = 0
+for cifra in cislo:
+    soucet = soucet + int(cifra)
+print(soucet)
 

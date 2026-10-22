@@ -17,4 +17,4 @@ print("Ahoj,", jmeno)
 
 # Zeptat se můžeme i na víc věcí:
 mesto = input("A odkud jsi? ")
-print(jmeno, "z města", mesto, "– vítej!")
+print(jmeno, "z města", mesto, "– VMítej!")

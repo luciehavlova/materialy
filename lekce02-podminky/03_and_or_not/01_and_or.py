@@ -23,7 +23,7 @@ print(den == "sobota" or den == "neděle")   # True – je to víkend
 # Praktická ukázka. Obdélník má dvě strany a obě musí být kladné.
 # Dřív bychom to řešili vnořeným if, teď stačí jeden řádek s or:
 a = 5
-b = -2
+b = - 2
 
 if a <= 0 or b <= 0:
     print("Strany musí být kladné.")
@@ -35,7 +35,7 @@ else:
 # Pozor: and/or spojují CELÉ podmínky, ne holá čísla.
 # Všimni si, že nahoře máme porovnání dvakrát – zvlášť pro a a zvlášť pro b:
 #
-#     if a <= 0 or b <= 0:      # správně
+#     if a <= 0 or b <= 0:      # SPRÁVNĚ
 #
 # Když se to pokusíš zkrátit takhle, je to chyba:
 #

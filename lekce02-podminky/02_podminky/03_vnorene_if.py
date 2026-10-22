@@ -19,6 +19,11 @@ if venku_prsi:
     else:
         print("A nemám deštník – zmoknu.")
 else:
+    if mam_destnik:
+        print("Táhnu deštník zbytečně.")
+    else:
+        print("Mám štěstí, neprší.")
+
     print("Je sucho, pohoda.")
 
 # Všimni si dvou úrovní odsazení: vnější if řeší déšť,

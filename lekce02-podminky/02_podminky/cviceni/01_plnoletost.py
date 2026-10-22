@@ -5,4 +5,10 @@
 #    jinak vypiš "Ještě ne.".
 vek = 16
 
+if vek >= 18:
+    print("Jsi plnoletá.")
+else:
+    print("Ještě ne.")
+
+
 

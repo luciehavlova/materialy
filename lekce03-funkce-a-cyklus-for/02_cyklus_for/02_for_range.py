@@ -27,3 +27,13 @@ for cislo in range(1, 6):
 for cislo in range(3):
     print("uvnitř cyklu:", cislo)
 print("hotovo")              # vypíše se jednou, až cyklus doběhne
+
+
+# Součet bez použití funkce sum:
+soucet = 0
+for i in range(0, 5):
+    print("i", i)
+    print("Součet na začátku cyklu:", soucet)
+    soucet = soucet + i
+    print("Součet na konci cyklu:", soucet)
+print(soucet)

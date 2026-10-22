@@ -35,7 +35,9 @@ else:
 
 # else je nepovinné. Když ho vynecháš a žádná podmínka neplatí,
 # neudělá se prostě nic:
-teplota = 25
+
+teplota = int(input("Zadej teplotu: "))
+# teplota = 25
 
 if teplota < 0:
     print("Mrzne.")
