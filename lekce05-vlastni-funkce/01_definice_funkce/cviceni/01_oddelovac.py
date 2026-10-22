@@ -4,4 +4,4 @@
 # Napiš funkci oddelovac(), která vypíše řádek z 30 hvězdiček.
 #    Zavolej ji třikrát.
 
-
+ahoj
