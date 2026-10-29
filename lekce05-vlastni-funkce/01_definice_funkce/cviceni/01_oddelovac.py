@@ -4,4 +4,9 @@
 # Napiš funkci oddelovac(), která vypíše řádek z 30 hvězdiček.
 #    Zavolej ji třikrát.
 
-ahoj
+def oddelovac():
+    print("*" * 30)
+
+oddelovac()
+oddelovac()
+oddelovac()

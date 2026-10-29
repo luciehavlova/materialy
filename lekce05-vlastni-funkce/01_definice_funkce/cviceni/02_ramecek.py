@@ -7,4 +7,12 @@
 # Můžeš v ní použít oddelovac() z prvního úkolu – zkopíruj si jeho
 # definici sem nahoru, soubory se navzájem nevidí.
 
+def ramecek(retezec):
+    print(len(retezec) * "*")
+    print(retezec)
+    print(len(retezec) * "*")
 
+ramecek("kobliha")
+ramecek("abrakadabraka")
+ramecek("nekulinkovatelnejsi")
+ramecek("Dneska je krásný den!")
