@@ -18,7 +18,7 @@ print((2 + 3) * 4)   # 20  (nejdřív 2 + 3, pak * 4)
 
 
 # Závorky fungují úplně stejně jako v matematice:
-print(3 + (4 + 6) * 8 / 2 - 1)
+print(3 + (4 + 6) * 8 / 2 - 1) # 42 nejdříve 4 + 6, pak * 8, pak / 2, pak +3 a -1
 
 
 

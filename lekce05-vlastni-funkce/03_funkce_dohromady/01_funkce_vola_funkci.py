@@ -36,3 +36,33 @@ zaregistruj("Petra", "pyladies2026")
 jmeno = input("Jméno: ")
 heslo = input("Heslo: ")
 zaregistruj(jmeno, heslo)
+
+# cvičení v hodině: 
+"""
+def je_heslo_dlouhe(heslo):
+    if len(heslo) > 8:
+        return True
+    else:
+        return False
+    # return len(heslo) > 8: (kratší zápis předchozí podmínky)
+
+def zadej_jmeno():
+    jmeno = input("Zadej své jméno: ")
+    # úprava jména
+    return jmeno
+
+def zadej_heslo():
+    heslo = input("Zadej heslo: ")
+    return heslo
+
+def prihlaseni():
+    jmeno = zadej_jmeno()
+    heslo = zadej_heslo()
+    if je_heslo_dlouhe(heslo):
+        print("Vítej", jmeno)
+    else:
+        print("Heslo má špatnou délku")
+
+prihlaseni()
+"""
+

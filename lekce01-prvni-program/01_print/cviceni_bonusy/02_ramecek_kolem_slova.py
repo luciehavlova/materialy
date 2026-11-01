@@ -10,3 +10,8 @@ print("=" * 12)
 print("=" + " " + "PyLadies" + " " + "=")
 print("=" * 12)
 
+
+slovo = "PyLadies"
+print(len(slovo) * "=" + 4 * "=")
+print("=" + " " + slovo + " " + "=")
+print(len(slovo) * "=" + 4 * "=")

@@ -9,9 +9,8 @@ znamka2 = 3
 znamka3 = 2
 
 prumer = (znamka1 + znamka2 + znamka3) / 3
+# print(prumer)
 if prumer <= 2:
     print("Máš vyznamenání!")
 else:
     print("Bez vyznamenání.")
-
-    

@@ -16,20 +16,3 @@ elif a == b or b == c or a == c:
     print("Rovnoramenný troúhelník")
 else:
     print("Různostranný trojúhelník")
-
-
-
-
-
-
-
-
-"""
-if a == b and b == c and a == c:
-    print("Trojúhelník je rovnostranný.")
-elif a == b or b == c or a == c:
-    print("Trojúhleník je rovnoramenný.")
-else:
-    print("Trojúhelník je různostranný.")
-"""
-

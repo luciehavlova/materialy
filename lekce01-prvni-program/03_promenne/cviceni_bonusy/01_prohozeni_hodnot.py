@@ -8,7 +8,8 @@
 a = 5
 b = 3
 
+pomocna = a   # dočasně si schováme hodnotu a
 a = b
-b = 5
+b = pomocna
 
 print(a, b)

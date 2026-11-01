@@ -4,4 +4,4 @@
 # Vytvoř proměnnou vek a ulož do ní svůj věk. Pak ji vypiš.
 
 vek = 52
-print("Můj věk je", vek)
+print("Můj věk je", vek, "let")

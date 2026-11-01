@@ -7,5 +7,5 @@
 castka = int(input("Zadej celkovu částku: "))
 lidi = int(input("Zadej celkový počet lidí: "))
 
-print("Každý zaplatí celkovu částku", castka // lidi, "Kč a celkem zbyde", castka % lidi, "Kč.")
+print("Každý zaplatí částku", castka // lidi, "Kč a zbyde", castka % lidi, "Kč.")
 

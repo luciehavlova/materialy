@@ -10,4 +10,3 @@ if ma_ridicak == True and ma_zakaz == False:
     print("Můžeš řídit.")
 else:
     print("Za volant nesmíš.")
-

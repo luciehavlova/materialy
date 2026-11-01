@@ -15,4 +15,3 @@ if vek >= 18 and (je_clen or ma_pozvanku) and not ma_zakaz:
     print("Vítej v klubu.")
 else:
     print("Dnes se nedostaneš.")
-

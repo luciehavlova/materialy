@@ -17,6 +17,8 @@ print(False)
 je_plnolety = 20 >= 18
 print(je_plnolety)     # True
 
+pravda = True
+print("Proměnná pravda je", pravda)
 
 teplota = 5
 je_zima = teplota < 0

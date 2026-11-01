@@ -5,4 +5,10 @@
 
 print(2837 % 10)
 
+
+
+# použije se modulo, tedy % zbytek po dělení a zde platí, že jakékoliv číslo vydělíš desítkou, 
+# zbytek po tomto dělení je vždycky přesně to poslední číslo na konci (jednotky).
+
+
       

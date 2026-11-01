@@ -6,16 +6,14 @@
 #    "červená" → "Stůj", "oranžová" → "Připrav se", "zelená" → "Jeď",
 #    cokoli jiného → "Neznámý signál".
 
-barva = "zelená"
+barva = "zelená" 
 
-if barva == "červená":
-    print("Stůj")
-elif barva == "oranžová":
-    print("Připrav se")
-elif barva == "zelená":
+if barva == "zelená":
     print("Jeď")
+elif barva == "oranžová":
+    print("Připrave se")
+elif barva == "červená":
+    print("Stůj")
 else:
-    print("Neznámý signál")
-
-
+    print("Neznámý signál!")
 

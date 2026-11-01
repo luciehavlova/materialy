@@ -11,8 +11,5 @@ den = input("Zadej den v týdnu: ")
 if vek < 18 or vek > 65 or den == "pondělí":
     print("Máš slevu.")
 else:
-    print("Plné vstupné.")
-
-    
-
+    print("Plné vstupné")
 

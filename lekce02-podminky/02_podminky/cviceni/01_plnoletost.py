@@ -6,9 +6,8 @@
 vek = 16
 
 if vek >= 18:
-    print("Jsi plnoletá.")
+    print("Jsi plnoletá/ý.")
 else:
-    print("Ještě ne.")
-
+    print("Ještě nejsi plnoletá/ý.")
 
 

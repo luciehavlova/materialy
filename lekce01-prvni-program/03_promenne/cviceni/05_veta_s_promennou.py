@@ -6,4 +6,5 @@
 
 mesto = "Košice"
 print("Bydlím ve měste", mesto)
+print(f"Bydlím ve městě {mesto}.")
 

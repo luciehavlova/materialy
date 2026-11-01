@@ -22,5 +22,6 @@ print(f"Jsem za polovinou? {precteno > stran_celkem / 2}")      # True
 def procenta(cast, celek):
     return cast / celek * 100
 
+print(f"Přečteno: {procenta(precteno, stran_celkem):2f} %")
 
-print(f"Přečteno: {procenta(precteno, stran_celkem)} %")
+# 2f funguje jako zaokrouhlení 

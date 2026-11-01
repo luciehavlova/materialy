@@ -11,9 +11,9 @@ heslo = "tajne"
 jmeno_zadani = input("Zadej jmeno: ")
 heslo_zadani = input("Zadej heslo: ")
 
-if jmeno_zadani == jmeno and heslo_zadani == heslo:
+if jmeno == jmeno_zadani and heslo == heslo_zadani:
     print("Vítej!")
 else:
     print("Špatné údaje.")
 
-    
+   

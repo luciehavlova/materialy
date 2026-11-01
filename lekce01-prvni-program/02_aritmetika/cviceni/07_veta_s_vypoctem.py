@@ -10,3 +10,4 @@ b = 15
 soucin = a * b
 print(soucin)
 print("Součin dvou čísel je:", soucin)
+print("Součet dvou čísel je: ", a + b)

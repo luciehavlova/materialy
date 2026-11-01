@@ -11,17 +11,15 @@ cislo2 = float(input("Zadej druhé číslo: "))
 znamenko = input("Zadej požadované znaménko (+, -, *, /): ")
 
 if znamenko == "+":
-    print("Výsledek:", cislo1 + cislo2)
+    print("Součet čísel je: ", cislo1+cislo2)
 elif znamenko == "-":
-    print("Výsledek:", cislo1 - cislo2)
+    print("Odečet dvou čísel je: ", cislo1-cislo2)
 elif znamenko == "*":
-    print("Výsledek:", cislo1 * cislo2)
+    print("Součin dvou čísel je: ", cislo1*cislo2)
 elif znamenko == "/":
     if cislo2 == 0:
-        print("Nulou nelze dělit!")
+        print("Nulou nejde dělit!!!")
     else:
-     print("Výsledek:", cislo1 / cislo2)
+        print("Dělení dvou čísel je: ", cislo1/cislo2)
 else:
-    print("Neznámé znaménko.")
-    
-
+    print("Neznámé znaménko!!!")

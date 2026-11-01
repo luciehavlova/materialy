@@ -9,8 +9,7 @@ b = 4
 c = 5
 
 if a + b > c and b + c > a and a + c > b:
-    print("Platný trojúhleník")
+    print("Platný trojúhelník.")
 else:
     print("Takový trojúhelník nejde")
-
-    
+  

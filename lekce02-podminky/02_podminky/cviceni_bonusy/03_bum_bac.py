@@ -17,6 +17,3 @@ elif cislo % 5 == 0:
     print("Bác")
 else:
     print(cislo)
-
-    
-

@@ -10,6 +10,3 @@ if cislo % 2 == 0:
 else:
     print("Číslo je liché.")
 
-    
-
-
