@@ -9,7 +9,6 @@
 
 def zkontroluj_heslo(heslo, min_delka=8):
     """Vypíše, jestli je heslo dost dlouhé.
-
     heslo      text, který se kontroluje
     min_delka  nejmenší povolená délka, celé číslo větší než nula
     """

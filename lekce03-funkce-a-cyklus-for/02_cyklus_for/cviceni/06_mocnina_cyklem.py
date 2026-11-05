@@ -4,7 +4,6 @@
 # Vypočítej 2 na desátou tak, že v cyklu desetkrát vynásobíš dvěma.
 #    Výsledek vypiš (má vyjít 1024).
 
-
 vysledek = 1
 for mocnina in range(10):
     vysledek = vysledek * 2

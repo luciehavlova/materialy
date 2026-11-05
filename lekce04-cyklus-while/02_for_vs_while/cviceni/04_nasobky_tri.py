@@ -8,3 +8,8 @@ for nasobek in range(3, 31, 3):
 
 for cislo in range(1, 11):
     print(cislo * 3)
+
+for cisla in range(1, 31):
+    if cisla % 3 == 0:
+        print(cisla)
+

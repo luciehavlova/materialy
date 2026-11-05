@@ -9,3 +9,4 @@ def zeptej_se_a_pozdrav():
     print("Ahoj", jmeno)
 
 zeptej_se_a_pozdrav()
+zeptej_se_a_pozdrav()

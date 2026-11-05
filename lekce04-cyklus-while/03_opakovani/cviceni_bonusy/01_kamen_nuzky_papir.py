@@ -13,6 +13,8 @@
 #     papír balí kámen.
 #     Nahoru na první řádek nezapomeň:  from random import randrange
 
+from random import randrange
+
 while True:
     tvuj_tah = input("Tvůj tah (kamen/nuzky/papir): ")
 

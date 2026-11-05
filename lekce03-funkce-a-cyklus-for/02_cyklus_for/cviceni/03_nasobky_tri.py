@@ -9,4 +9,5 @@ for cisla in range(3, 31, 3):
 for cisla in range(3, 31):
     if cisla % 3 == 0:
         print(cisla)
+
         

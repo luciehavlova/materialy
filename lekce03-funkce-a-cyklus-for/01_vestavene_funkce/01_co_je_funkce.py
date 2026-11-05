@@ -48,7 +48,7 @@ print("světe")                  # Ahoj světe
 
 # input se zeptá uživatele a jeho odpověď nám vrátí (jako text) - vždy vrací jako text - string.
 # Proto si ji ukládáme do proměnné.
-jmeno = input("Jak se jmenuješ? ")
+jmeno = input("Jak se jmenuješ?: ")
 print("Ahoj,", jmeno)
 
 

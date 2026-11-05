@@ -14,6 +14,6 @@ print(max(polozka1, polozka2, polozka3))
 if polozka1 + polozka2 + polozka3 <= 1000:
     print("Vejde se do rozpočtu")
 else:
-    print("Překročili jste rozpočet")
+    print("Překročili jste rozpočet!")
 
     

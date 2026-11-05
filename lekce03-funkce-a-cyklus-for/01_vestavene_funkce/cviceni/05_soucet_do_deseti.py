@@ -8,7 +8,7 @@ print(sum(range(1, 11)))
 soucet = 0
 for cisla in range(1, 11):
     soucet = soucet + cisla
-    print(soucet) # zde vytiskne postupné součty
+    # print(soucet) # zde vytiskne postupné součty
 print(soucet) # zde vypíše konečný součet
 
 

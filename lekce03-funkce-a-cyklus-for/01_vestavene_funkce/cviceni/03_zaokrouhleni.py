@@ -7,3 +7,4 @@
 cislo = 2.71828
 print(round(cislo))
 print(round(cislo, 1))
+# print(round(2.71828))

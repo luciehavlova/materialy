@@ -7,5 +7,4 @@ cislo1 = int(input("Zadej první číslo: "))
 cislo2 = int(input("Zadej druhé číslo: "))
 
 print(max(cislo1, cislo2))
-
-
+# print(min(cislo1, cislo2))
