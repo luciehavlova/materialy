@@ -11,10 +11,11 @@ from random import randrange
 
 
 def vylosuj_cislo():
-    return randrange(1, 21)
+    return randrange(1, 21)  # zde je chyba že pokaždé vylosuje nové číslo?????
 
 
 def zeptej_se_na_tip():
+    print("Ahoj")
     return int(input("Hádej číslo od 1 do 20: "))
 
 
@@ -33,14 +34,14 @@ pokusy = 0
 
 while True:
     hledane_cislo = vylosuj_cislo()
-    tip = zeptej_se_na_tip()
+    tip_cislo = zeptej_se_na_tip()
     pokusy = pokusy + 1
 
     if pokusy == 5:
         print(f"Došly ti pokusy. Hledané číslo bylo {hledane_cislo}.")
         break
-    if je_trefa(tip, hledane_cislo):
+    if je_trefa(tip_cislo, hledane_cislo):
         print("Trefa!")
         break
 
-    print(napoveda(tip, hledane_cislo))
+    print(napoveda(tip_cislo, hledane_cislo))

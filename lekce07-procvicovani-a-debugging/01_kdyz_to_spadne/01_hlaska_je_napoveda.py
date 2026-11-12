@@ -7,7 +7,7 @@
 # Spusť soubor. Spadne – to je schválně.
 
 jmeno = "Anna"
-vek = "30"
+vek = "30"   # správně má být vek = 30
 
 print(f"Jméno: {jmeno}")
 
