@@ -11,4 +11,4 @@ podstatne = input("Podstatné jméno: ")
 sloveso = input("Sloveso: ")
 pridavne = input("Přídavné jméno: ")
 
-print(f"Dneska jsem viděla {pridavne} {podstatne}, jak {sloveso}.")
+print(f".Dneska jsem viděla {pridavne} {podstatne}, jak {sloveso}")

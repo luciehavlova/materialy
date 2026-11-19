@@ -9,8 +9,10 @@
 #      Žebříček: [18, 15, 12, 9]
 
 vysledky = [12, 18, 9, 15]
-zebricek = vysledky
+
+zebricek = vysledky.copy()
 zebricek.sort(reverse=True)
 
 print(f"Jak přišly: {vysledky}")
 print(f"Žebříček: {zebricek}")
+

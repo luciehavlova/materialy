@@ -43,7 +43,7 @@ def predstav_se(jmeno):
     print("Ahoj, já jsem", jmeno)
 
 
-predstav_se("Jana")
+predstav_se("Lucie")
 predstav_se("Petra")
 
 

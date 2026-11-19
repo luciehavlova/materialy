@@ -29,3 +29,5 @@ print("Je mi " + str(vek) + " let")     # Je mi 30 let
 # každou mezeru a kolem každého čísla str():
 jmeno = "Anna"
 print("Ahoj " + jmeno + ", je ti " + str(vek) + " let.")
+# pomocí f-stringu:
+print(f"Ahoj {jmeno}, je ti {vek} let.")

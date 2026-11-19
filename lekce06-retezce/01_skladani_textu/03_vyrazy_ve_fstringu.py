@@ -5,7 +5,7 @@
 
 kniha = "Malý princ"
 stran_celkem = 320
-precteno = 184
+precteno = 185
 
 
 # Nejen proměnná. Do závorek jde i výpočet:

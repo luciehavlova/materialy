@@ -15,6 +15,7 @@ print(f"Cena s DPH: {s_dph}")           # Cena s DPH: 301.28999999999996
 
 # Dvojtečka a .2f za výrazem říkají: zaokrouhli na dvě desetinná místa.
 print(f"Cena s DPH: {s_dph:.2f}")       # Cena s DPH: 301.29
+print(f"Cena s DPH: {s_dph:.3f} ")      # zakouhlí na tři desetinná místa
 
 
 # Zaokrouhlovat umí i funkce round(), kterou znáš z vestavěných funkcí.
