@@ -39,3 +39,17 @@ print(veky["Petra"])    # 25
 #
 # N-tice z lekce 8 se dál hodí na pevnou skupinu hodnot, které patří
 # k sobě, třeba jméno a dárek.
+
+basnicka = "Skákal pes přes oves přes zelenou louku"
+pocet_pismen = {}
+
+for pismeno in basnicka:
+    if pismeno not in pocet_pismen:
+        pocet_pismen[pismeno] = 1
+    else:
+        pocet_pismen[pismeno] = pocet_pismen[pismeno] + 1 
+        # pocet_pismen[pismeno] += 1 (zkrácený zápis řádku nad)
+
+print(pocet_pismen)
+
+

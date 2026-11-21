@@ -13,3 +13,11 @@
 #      Položek: 4
 
 cenik = {"pivo": 45, "víno": 60, "džus": 35, "voda": 20}
+print(f"Voda stojí {cenik["voda"]} Kč.")
+cenik.update({"cola": 40})
+# print(cenik)
+cenik["pivo"] = 50
+# print(cenik)
+cenik.pop("voda")
+print(cenik)
+print(f"Celkem je položek ve slovniku: {len(cenik)}")

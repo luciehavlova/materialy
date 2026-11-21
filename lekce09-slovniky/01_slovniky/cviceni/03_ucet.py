@@ -9,3 +9,7 @@
 
 cenik = {"pivo": 45, "víno": 60, "džus": 35, "voda": 20}
 objednavka = ["pivo", "víno", "šampaňské", "pivo", "džus"]
+
+soucet = 0
+if objednavka in cenik:
+    soucet[cenik]
